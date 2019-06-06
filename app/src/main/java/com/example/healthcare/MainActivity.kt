@@ -13,28 +13,120 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
+import androidx.lifecycle.ViewModelProviders
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.healthcare.data.Medical
+import com.example.healthcare.viewmodel.MedicalViewModel
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_mainn.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import java.lang.System.exit
 import java.util.*
 
-class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {//, HomeFragment.OnAddButtonClicked{
-    //override fun onAddButtonClicked() {
+//const val NEW_MEDICAL_ACTIVITY_REQUEST_CODE = 1
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
+    , HomeFragment.OnAddButtonClicked,HomeFragment.OnChildButtonClicked,HomeFragment.OnTreatButtonClicked
+    ,HomeFragment.OnNewsButtonClicked,ChildFragment.OnOneImageButtonClicked, TreatFragment.OnToothacheImageButtonClicked{
+    override fun onToothacheImageButtonClicked() {
+        displayScreen(R.layout.fragment_toothache)
+    }
+
+    override fun onHeadacheImageButtonClicked() {
+        displayScreen(R.layout.fragment_headache)
+    }
+
+    override fun onMuscleImageButtonClicked() {
+        displayScreen(R.layout.fragment_muscle)
+    }
+
+    override fun onCommonImageButtonClicked() {
+        displayScreen(R.layout.fragment_common)
+    }
+
+    override fun onAsthmaImageButtonClicked() {
+        displayScreen(R.layout.fragment_asthma)
+    }
+
+    override fun onHeartImageButtonClicked() {
+        displayScreen(R.layout.fragment_heart)
+    }
+
+    override fun onTwelveImageButtonClicked() {
+        displayScreen(R.layout.fragment_twelve_month)
+    }
+
+    override fun onAboveImageButtonClicked() {
+        displayScreen(R.layout.fragment_above_month)
+           }
 
 
-//            val addIntent = Intent(this, AddFragment::class.java)
-//            startActivity(addIntent)
-//
-//    }
+    override fun onSixImageButtonClicked() {
+        displayScreen(R.layout.fragment_six_month)
+    }
+
+    override fun onOneImageButtonClicked() {
+
+        displayScreen(R.layout.fragment_one_month)
+}
+
+
+    override fun onAddButtonClicked() {
+
+        displayScreen(R.id.nav_med)
+    }
+    override fun onNewsButtonClicked() {
+        displayScreen(R.id.nav_news)
+    }
+
+    override fun onTreatButtonCliked() {
+        displayScreen(R.id.nav_treat)
+    }
+
+    override fun onTreatButtonClicked() {
+        displayScreen(R.id.nav_treat)
+    }
+
+    override fun onChildButtonClicked() {
+        displayScreen(R.id.nav_child)
+    }
+    //lateinit var medicalViewModel: MedicalViewModel
+
+
 
     //lateinit var mbtn : Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-       // loadLocate()
+        // loadLocate()
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
+
+//        val medicalListAdapter = MedicalListAdapter(this)
+//        recycler_view.adapter = medicalListAdapter
+//        recycler_view.layoutManager = LinearLayoutManager(this)
+//
+//        fab.setOnClickListener {
+//            val intent = Intent(this, NewMedicalActivity::class.java)
+//            startActivityForResult(intent, NEW_MEDICAL_ACTIVITY_REQUEST_CODE)
+//        }
+//
+//
+//        medicalViewModel = ViewModelProviders.of(this).get(MedicalViewModel::class.java)
+//
+//        medicalViewModel.allMedical.observe(this, androidx.lifecycle.Observer { medicals ->
+//            medicals?.let { medicalListAdapter.setMedicals(medicals) }
+//        })
+//    }
+//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+//        super.onActivityResult(requestCode, resultCode, data)
+//
+//        if(requestCode == NEW_MEDICAL_ACTIVITY_REQUEST_CODE &&
+//            resultCode == Activity.RESULT_OK){
+//            val medical:Medical = data?.getSerializableExtra("MEDICAL") as Medical
+//            medicalViewModel.insertMedical(medical)
+//        }
+
 
 //        val actionBar = supportActionBar
 //        actionBar!!.title = resources.getString(R.string.app_name)
@@ -54,7 +146,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         )
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
-
+//
         nav_view.setNavigationItemSelectedListener(this)
 
         displayScreen(-1)
@@ -111,10 +203,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
             drawer_layout.closeDrawer(GravityCompat.START)
 
-        } else {
-            super.onBackPressed()
-            exit(0)
+        }else{
+            displayScreen(R.layout.fragment_home)
         }
+
+
     }
 
 
@@ -130,7 +223,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // as you specify a parent activity in AndroidManifest.xml.
         if(item.itemId == R.id.action_settings){
             val builder = AlertDialog.Builder(this@MainActivity)
-            builder.setMessage("Are you sure want to exit")
+            builder.setMessage("Are you sure want to exit??")
             builder.setCancelable(true)
             builder.setNegativeButton("No") { dialog, i -> dialog.cancel() }
 
@@ -165,6 +258,36 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_about ->{
                 AboutFragment()
+            }
+            R.layout.fragment_one_month ->{
+                OneMonthFragment()
+            }
+            R.layout.fragment_six_month ->{
+                SixMonthFragment()
+            }
+            R.layout.fragment_twelve_month ->{
+                TwelveMonthFragment()
+            }
+            R.layout.fragment_above_month ->{
+                AboveMonthFragment()
+            }
+            R.layout.fragment_toothache ->{
+                ToothacheFragment()
+            }
+            R.layout.fragment_headache ->{
+                HeadacheFragment()
+            }
+            R.layout.fragment_muscle ->{
+                MuscleFragment()
+            }
+            R.layout.fragment_common ->{
+                CommonFragment()
+            }
+            R.layout.fragment_asthma ->{
+                AsthmaFragment()
+            }
+            R.layout.fragment_heart ->{
+                HeartFragment()
             }
             else -> {
                 HomeFragment()
