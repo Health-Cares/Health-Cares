@@ -6,8 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.GravityCompat
-import kotlinx.android.synthetic.main.activity_main.*
 
 class OneMonthFragment : Fragment() {
 
@@ -16,7 +14,4 @@ class OneMonthFragment : Fragment() {
     }
 
 
-       }
-
-
-
+}

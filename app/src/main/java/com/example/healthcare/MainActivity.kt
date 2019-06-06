@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         )
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
-//
+
         nav_view.setNavigationItemSelectedListener(this)
 
         displayScreen(-1)
@@ -207,7 +207,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             displayScreen(R.layout.fragment_home)
         }
 
-
     }
 
 
@@ -223,7 +222,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // as you specify a parent activity in AndroidManifest.xml.
         if(item.itemId == R.id.action_settings){
             val builder = AlertDialog.Builder(this@MainActivity)
-            builder.setMessage("Are you sure want to exit??")
+            builder.setMessage("Are you sure want to exit")
             builder.setCancelable(true)
             builder.setNegativeButton("No") { dialog, i -> dialog.cancel() }
 
