@@ -9,7 +9,733 @@
             android:layout_height="500dp"
             android:orientation="vertical">
 
+        <TextView
+                android:text="Six month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                android:id="@+id/textView7"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/sixmo"/>
+        <TextView
+                android:text="Sixth Month Baby Milestones: Growth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/growth"/>
+        <TextView
+                android:text="During the first few months of life, your baby was growing at a rate of about 1 ½ to 2
+pounds a month. By now, she should have at least doubled her birth weight. At six
+months, baby’s growth will slow to about 1 pound a month. Height gain will also
+slow, to about a half-inch each month."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Sixth Month Baby Milestones: Motor Skills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/skills"/>
+        <TextView
+                android:text="Your baby may be starting to sit up alone by six months. To get ready, babies first
+prop themselves up with their hands, but over time they can start to let go and sit
+unsupported."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Your 6-month-old can probably roll from his back to his stomach and vice versa.
+Some babies can propel themselves around the floor using this rolling method. Or,
+they may creep forward or backward -- sliding around on their tummies while pushing
+against the floor. You may notice your baby rise up on hands and knees and rock back
+and forth."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Sixth Month Baby Milestones: Sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Most babies are sleeping six to eight hours at a stretch by six months. When babies at
+this age have trouble falling or staying asleep, some parents turn to a method
+developed by pediatrician Richard Ferber. The Ferber Method, as it is known,
+involves putting your baby into the crib while she’s still awake. If your baby cries,
+wait for a progressively longer period of time each night before going in to provide
+comfort. This method works well for some families, but you may need to experiment
+with several different sleep methods before you find the one that works best for you."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Now that your baby can roll over independently, don’t be alarmed if you put her
+to sleep on her back and she wakes up on her tummy. The risk of SIDS is much lower
+at six months than it was in the first few months of life. Still, it’s a good idea to keep
+stuffed animals, pillows, crib bumpers, and other soft items out of the crib for now."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Sixth Month Baby Milestones: The Senses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="You may notice that your baby’s eyes have changed from their birth color. Lightercolored
+eyes may go through several shifts before settling on their final shade at
+about six months. If your baby still has blue eyes now, chances are they’ll stay that
+way permanently."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Sixth Month Baby Milestones: Eating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/sixthree" />
+        <TextView
+                android:text="If you haven’t started your baby on solid foods already, your pediatrician will
+likely recommend that you do so at six months. Begin with an iron-fortified cereal
+mixed with breast milk or formula. As your baby adjusts to solids, introduce
+strained fruits and vegetables one at a time. Wait a few days each time you try
+something new to make sure she isn’t allergic to it."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="If your baby doesn’t seem to like a new food, wait a few days and then try it again.
+Babies are fickle creatures and their tastes can change from one day to the next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="What to Feed?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="1.Breast milk or formula, PLUS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="Your baby doesn’t need anything except breastmilk or iron-fortified formula for her first 6 months. Even after she begins solids, breastmilk or formula will still provide the majority of her nutrition for the first year."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/formula"/>
+        <TextView
+                android:text="2.Pureed vegetables (sweet potatoes, squash)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/sweetp"/>
+        <TextView
+                android:text="Method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="Ingredient Selection Tips: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="Choose the squash and sweet potatoes that have no or fewer skin punctures. Slight variations on skin color would not directly affect its flavor.
+Do not choose those with white specks (these have probably been stored for a long time). "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 1."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Wash well your squash and sweet potato in running water. If your potatoes have been freshly dug out in the garden, better to submerge it first in water to take off the soil."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 2."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Wash, rinse and dry."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 3."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Peel its skin then cut in cubes.  If you are sure of its source and handling process are less say the squash and sweet potatoes are grown and from your own garden, then by all means do not peel its skin. Some mothers opt not to remove the skin as its nutrients and vitamins are stored on it."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 4."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Boil water in the saucepan and put the cubed squash and sweet potato. Boil until tender (when you can easily scoop a part of it using the teaspoon)."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 5."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Drain. Let it cool for a while."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 6."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Put in the Baby Bullet Batch Bowl and blend for 5 minutes. Mixing these two you will have a week long supply for sure. If you want a creamier mixture, add breastmilk or water."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
 
-
+        <TextView
+                android:text="You can add cinnamon or rosemary to this combination for a different flavor."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="3. Pureed fruit (apples, bananas, peaches)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/abp"/>
+        <TextView
+                android:text="Method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="step 1."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Steam the peaches and apple for 5 minutes or until soft. (Alternatively place the peaches and apples in a small saucepan with 1/2 cup of water, cover and simmer for 5-10 minutes or until soft.) -"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 2."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Puree the peaches and apples with the banana until you have your desired consistency. -"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 3."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="feed your baby as it is or  mixed it with baby rice cereal and/or natural or greek yoghurt. -"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="4. Pureed meat (chicken, pork, beef)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/mcpuree"/>
+        <TextView
+                android:text="Ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="1 cup cold and cooked boneless beef, pork or veal – chopped into chunks no bigger than 1 inch
+1/4 c cooking juice (save the juices that you cooked the meat in) or plain water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="Method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="step 1."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Place meat or chicken chunks in blender or food processor and puree until a powdery mix is formed. Slowly add water and puree further until a smooth consistency is created."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 2."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Add as much liquid as needed to make a consistency appropriate for your baby. You may add veggies or fruits to this puree as you like."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="step 3."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="now it is ready to feed your baby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Sixth Month Baby Milestones: Communication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/sixone" />
+        <TextView
+                android:text="Your 6-month-old baby should be smiling, laughing, and babbling away (“ma-ma,”
+“ba-ba”). To help her learn the language, read stories together every night.
+Babies at this age are starting to recognize the people and things around them. Your
+baby will start to feel comfortable with the familiar -- mommy, daddy, grandma, and
+grandpa, as well as a few of her favorite toys. You might see the first signs of fear
+when she is with strange people or in new situations."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Tips for Baby’s Sixth Month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text=" Be on the lookout for signs that your baby is not hitting important
+milestones, like babbling, sitting unassisted, smiling, making eyecontact, or
+responding to sounds. If you’re concerned she has missed any milestone, call
+your pediatrician."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Play peek-a-boo and similar games with your baby. It will help teach the
+idea of object permanence -- that objects still exist, even when they’re out of
+sight."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Place toys just out of reach on the floor to encourage your baby to start
+crawling."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/sixtwo" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

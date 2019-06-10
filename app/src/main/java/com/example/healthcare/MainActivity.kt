@@ -18,12 +18,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.healthcare.data.Medical
 import com.example.healthcare.viewmodel.MedicalViewModel
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_mainn.*
 import kotlinx.android.synthetic.main.app_bar_main.*
+import kotlinx.android.synthetic.main.content_main.*
 import java.lang.System.exit
 import java.util.*
 
-//const val NEW_MEDICAL_ACTIVITY_REQUEST_CODE = 1
+
+const val NEW_MEDICAL_ACTIVITY_REQUEST_CODE = 1
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
     , HomeFragment.OnAddButtonClicked,HomeFragment.OnChildButtonClicked,HomeFragment.OnTreatButtonClicked
     ,HomeFragment.OnNewsButtonClicked,ChildFragment.OnOneImageButtonClicked, TreatFragment.OnToothacheImageButtonClicked{
@@ -89,7 +90,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onChildButtonClicked() {
         displayScreen(R.id.nav_child)
     }
-    //lateinit var medicalViewModel: MedicalViewModel
+
+    lateinit var medicalViewModel: MedicalViewModel
 
 
 
@@ -102,30 +104,30 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-//        val medicalListAdapter = MedicalListAdapter(this)
-//        recycler_view.adapter = medicalListAdapter
-//        recycler_view.layoutManager = LinearLayoutManager(this)
-//
-//        fab.setOnClickListener {
-//            val intent = Intent(this, NewMedicalActivity::class.java)
-//            startActivityForResult(intent, NEW_MEDICAL_ACTIVITY_REQUEST_CODE)
-//        }
-//
-//
-//        medicalViewModel = ViewModelProviders.of(this).get(MedicalViewModel::class.java)
-//
-//        medicalViewModel.allMedical.observe(this, androidx.lifecycle.Observer { medicals ->
-//            medicals?.let { medicalListAdapter.setMedicals(medicals) }
-//        })
-//    }
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-//        super.onActivityResult(requestCode, resultCode, data)
-//
-//        if(requestCode == NEW_MEDICAL_ACTIVITY_REQUEST_CODE &&
-//            resultCode == Activity.RESULT_OK){
-//            val medical:Medical = data?.getSerializableExtra("MEDICAL") as Medical
-//            medicalViewModel.insertMedical(medical)
-//        }
+        val medicalListAdapter = MedicalListAdapter(this)
+        recycler_view.adapter = medicalListAdapter
+        recycler_view.layoutManager = LinearLayoutManager(this)
+
+        fab.setOnClickListener {
+            val intent = Intent(this, NewMedicalActivity::class.java)
+            startActivityForResult(intent, NEW_MEDICAL_ACTIVITY_REQUEST_CODE)
+        }
+
+
+        medicalViewModel = ViewModelProviders.of(this).get(MedicalViewModel::class.java)
+
+        medicalViewModel.allMedical.observe(this, androidx.lifecycle.Observer { medicals ->
+            medicals?.let { medicalListAdapter.setMedicals(medicals) }
+        })
+    }
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if(requestCode == NEW_MEDICAL_ACTIVITY_REQUEST_CODE &&
+            resultCode == Activity.RESULT_OK){
+            val medical:Medical = data?.getSerializableExtra("MEDICAL") as Medical
+            medicalViewModel.insertMedical(medical)
+        }
 
 
 //        val actionBar = supportActionBar

@@ -8,6 +8,611 @@
             android:layout_width="wrap_content"
             android:layout_height="500dp"
             android:orientation="vertical">
+        <TextView
+                android:text="Above Twelve Month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                android:id="@+id/textView7"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/abovefive"/>
+        <TextView
+                android:text="More than 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="What to feed?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Babies readily eat cereal, cooked noodles, soft breads, and rice. It's just as easy to give them enough dairy, since babies this age are still drinking 16 to 24 ounces of breast milk or formula a day. But don't forget to serve extra protein in the form of chicken, fish, beans, or eggs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="After your child's first birthday, you'll probably notice a sharp drop in his or her appetite. Maybe your child is suddenly turning his or her head away after just a few bites and/or is resisting coming to the table at mealtimes. Despite this behavior and increased activity, there's a good reason for the change. Your child's growth rate has slowed; he or she really doesn't require as much food now."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Tips for Parents:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="One year olds need about 1,000 calories divided among three meals and two snacks per day to meet their needs for growth, energy, and good nutrition. Don't count on your child always eating it that way though—the eating habits of toddlers are erratic and unpredictable from one day to the next! For example, your child may:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" One year olds need about 1,000 calories divided among three meals and two snacks per day to meet their needs for growth, energy, and good nutrition. Don't count on your child always eating it that way though—the eating habits of toddlers are erratic and unpredictable from one day to the next! For example, your child may:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Eat everything in sight at breakfast and almost nothing else for the rest of the day."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Eat only the same food for three days in a row—and then reject it entirely."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Eat 1,000 calories one day, but then eat noticeably more or less over the next day or two."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Encourage, but don't pressure or force your child to eat at a particular time. Hard as it may be to believe, your child's diet will balance out over several days if you make a range of wholesome foods available."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="One year olds need foods from the same basic nutrition groups that you do. If you provide your child with selections from each of the basic food groups and let him or her experiment with a wide variety of tastes, colors, and textures, he or she should be eating a balanced diet with plenty of vitamins. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Don't restrict fats from your one-year-old's menu. Babies and young toddlers should get about half of their calories from fat. Cholesterol and other fats are also very important for their growth and development at this age. Once your child has reached age two, you can gradually decrease fat consumption (lowering it to about one-third of daily calories by ages four to five). See Preschoolers' Diets Shouldn't Be Fat-Free: Here's Why for more information."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Be sure the food is cool enough to prevent mouth burns. Test the temperature yourself, because he or she will dig in without considering the heat."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Don't give foods that are heavily spiced, salted, buttered, or sweetened. These additions prevent your child from experiencing the natural taste of foods, and they may be harmful to long-term good health."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+        <TextView
+                android:text="At around age 3, children’s imaginations and language skills seem to get
+supercharged. They’re figuring out all kinds of words, making up stories
+and play activities, and learning to build relationships. Mixed in with all
+this fun, they’re also trying to learn right from wrong and how to manage
+their feelings, which can sometimes overwhelm them."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Language and Communication Skills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text=" Follows commands with 2-3 steps, like “Pick out your PJs and brush
+your teeth”"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Has conversations using 2-3 sentences at a time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Knows how to use pronouns like “I,” “you,” and “we,” and knows
+some plural words like “cats” and “cars”"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Names friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Names common objects and understands words like “in,” “on,” and
+“under”"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Says first name, age, and gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Speaks sentences with 3-4 words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Movement and Physical Skills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/aboveeight"/>
+        <TextView
+                android:text="Climbs and runs well, Jumps and may hop on one foot, Pedals a tricycle, Walks up and down stairs using one foot on each step"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Social and Emotional Skills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/abovenine"/>
+        <TextView
+                android:text=" Copies what adults and friends do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Doesn’t get upset when parents leave, like at day care drop-off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Dresses and undresses without help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Gets the idea of “mine,” “his,” and “hers”"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Likes to help with tasks around the house"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" May be potty trained during the day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Openly shows affection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Really likes routine -- gets upset with big changes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="How to Help Your Child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="There’s a ton you can do every day to help your child learn and grow, such
+as:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Allow plenty of time for play, including make-believe and running
+around"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Ask your child to talk about what she sees when in the car or when
+out and about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Create and stick to a bedtime routine -- nightmares and waking at
+night are common at this age, but routine can help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Give your child plenty of time to play with friends and work on
+        taking turns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Read to your child every day and ask questions about the stories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Sing simple songs together and play rhyming games"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="How to Keep Your Child Safe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Here are some tips to keep in mind:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Always wear helmets on bikes, tricycles, and other riding toys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Check that you have window guards in place on the second floor and
+up -- and keep furniture away from windows"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Don’t keep guns in your home. If you have a gun, keep it unloaded,
+locked away, and separate from bullets. And make sure children
+can’t get the key."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Keep a close eye out when playing near streets and driveways"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Let your kid explore, but guard against falls, especially around
+playgrounds, doors, windows, and stairs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+
 
 
 

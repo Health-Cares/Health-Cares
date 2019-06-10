@@ -8,7 +8,443 @@
             android:layout_width="wrap_content"
             android:layout_height="500dp"
             android:orientation="vertical">
+        <TextView
+                android:text="Asthema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/asthemaone"/>
+        <TextView
+                android:text="Asthma is a common long-term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and easily triggered bronchospasms. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
+        <TextView
+                android:text="The most common signs of asthma are:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Coughing, especially at night, during exercise or when laughing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Difficulty breathing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Chest tightness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Shortness of breath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Wheezing (a whistling or squeaky sound in your chest when breathing, especially when exhaling)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Causes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+                android:text="Asthma symptoms may be triggered by exposure to an allergen (such as ragweed, pollen, animal dander or dust mites), irritants in the air (such as smoke, chemical fumes or strong odors) or extreme weather conditions. Exercise or an illness — particularly a respiratory illness or the flu — can also make you more susceptible."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="A physical display of strong emotion that affects normal breathing patterns — such as shouting, crying or laughing — can also act as an asthma trigger. Panic can prevent a person with asthma from relaxing and following instructions, which is essential during an asthma attack. Scientists have found that rapid breathing associated with strong emotions can cause bronchial tubes to constrict, possibly provoking or worsening an attack."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Asthma symptoms can appear at any time. Mild episodes may last only a few minutes and may be resolved spontaneously or with medication; more severe episodes can last from hours to days."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="People with asthma, like those with any chronic condition, may experience significant stress. Because it is a leading cause of work and school absences, asthma can affect a person’s livelihood, education and emotional well-being. Depression may set in when people diagnosed with asthma believe that they are unable to participate in normal activities."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Asthma Symptoms in Children"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="Most children with asthma have symptoms before they turn 5. In very young children, it may be hard for parents, and even doctors, to recognize that the symptoms are due to asthma. The bronchial tubes in infants, toddlers and preschoolers are already small and narrow, and head colds, chest colds and other illnesses can inﬂame these airways, making them even smaller and more irritated.
+
+The symptoms of pediatric asthma can range from a nagging cough that lingers for days or weeks to sudden and scary breathing emergencies."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Common symptoms to watch for include:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Coughing, especially at nigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="A wheezing or whistling sound when breathing, especially when exhaling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Trouble breathing or fast breathing that causes the skin around the ribs or neck to pull in tightly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Frequent colds that settle in chest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Home remedies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="1. Mustard oil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/mustard"/>
+        <TextView
+                android:text="Mustard oil mixed with camphor is a potent combination for asthma treatment. Massage the mixture all over the chest, till you get relief from the asthma. Warming the oil before massaging it ensures you feel the warmth which provides quick relief."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="2. Eucalyptus oil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/eucalyptus"/>
+        <TextView
+                android:text="One handy measure to keep asthma at bay is through eucalyptus oil. Drip a few drops of eucalyptus essential oil in a bowl of boiling water and take its steam. This helps in opening up any nasal blockages to facilitate easy breathing."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="3. Figs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/fig"/>
+        <TextView
+                android:text="When it comes to an effective home remedy against asthma, figs is up there among the best. Soak dried figs overnight in water. Eat them first thing in the morning. Drink the residual water.
+Often instant noodles contain monosodium glutamate (MSG) as also tertiary-butyl hydroquinone (TBHQ) - a chemical preservative derived from the petroleum industry for their taste enhancing and preserving properties. Although, intake of these ingredients is allowed upto a limit, regular intake can lead to health problems."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="4. Ginger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/ginger"/>
+        <TextView
+                android:text="Given the multiple benefits for your heath and body, it is hardly surprising that ginger is considered a superfood. It is also very effective against asthma. Prepare a potion with equal quantities of ginger, honey and pomegranate - consume it 2-3 times a day."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="5. Coffee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/coffee"/>
+        <TextView
+                android:text="Caffeine in coffee helps in asthma treatment. It clears the nasal passage allowing you to breathe easily. If you do not prefer coffee go for black tea. But, limit intake to 3 cups a day."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="6. Omega-3 fatty acids"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/omega"/>
+        <TextView
+                android:text="Omega-3 fatty acids are very useful in managing inflammatory conditions. It is helpful to treat just about every condition including heart disease, depression, seasonal affective disorder, in addition to asthma."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="7. Evening primrose oil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/evening"/>
+        <TextView
+                android:text="The oil contains a fatty acid (GLA), which can have a positive anti-inflammatory effect. In some cultures, it forms part of traditional treatment for asthma."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
 
 
     </LinearLayout>

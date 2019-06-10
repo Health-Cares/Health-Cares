@@ -25,6 +25,13 @@ class MedicalViewModel(application: Application): AndroidViewModel(application) 
     fun insertMedical(medical: Medical) = viewModelScope.launch(Dispatchers.IO) {
         medicalRepository.insertMedical(medical)
     }
+    fun deleteMedical(medical: Medical) = viewModelScope.launch {
+
+        medicalRepository.deleteMedical(medical)
+    }
+    fun updateMedical(medical: Medical) = viewModelScope.launch {
+        medicalRepository.updateMedical(medical)
+    }
 }
 
 

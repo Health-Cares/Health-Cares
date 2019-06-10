@@ -8,7 +8,452 @@
             android:layout_width="wrap_content"
             android:layout_height="500dp"
             android:orientation="vertical">
+        <TextView
+                android:text="Twelve month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                android:id="@+id/textView7"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/twelveone"/>
+        <TextView
+                android:text="Twelve Month Baby Milestones: Growth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Your baby’s weight has likely tripled since birth. At month 12, babies also have
+grown by 50% -- about 9 to 11 inches -- and their brain is about 60% of its adult size.
+After an incredible one-year growth spurt, your baby’s weight gain will start to slow
+down as her activity level increases."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" app:srcCompat="@drawable/twgrowth"/>
+        <TextView
+                android:text="Twelve Month Baby Milestones: Motor Skills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Your twelve month-old should be standing alone, and may even have taken those first
+tentative solo steps. If she hasn’t, hopefully you’ll have your video camera ready to
+capture the moment when she does."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" app:srcCompat="@drawable/twskill"/>
+        <TextView
+                android:text="Twelve Month Baby Milestones: Sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="450dp" app:srcCompat="@drawable/twelvetwo"/>
+        <TextView
+                android:text="By one year or twelve month, your baby should be sleeping less during the day and more at night.
+Most children at this age still need an afternoon nap, but their morning nap may be a
+thing of the past."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Twelve Month Baby Milestones: Eating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="At one year, you can make the transition from breast milk or formula to cow’s milk.
+Start with whole milk. Your baby needs the extra fat for healthy braingrowth and
+development. Don’t transition to low-fat milk -- or any other low-fat foods, for that
+matter -- until after your baby’s second birthday, or advised by your pediatrician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="450dp" app:srcCompat="@drawable/twelvethree"/>
+        <TextView
+                android:text="What to Feed?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="Breakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
+        <TextView
+                android:text="1.Oatmeal:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/oatmeal"/>
+        <TextView
+                android:text= "Start with any unsweetened oats. Make it with breast milk, formula, water, or even juice. For some variety, stir in banana slices or jarred or home-steamed fruit, such as pears or apples."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="2. Pancakes or waffles:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/pancake"/>
+        <TextView
+                android:text= "Try to use a whole-grain mix. Add just a bit of wheat germ for a health boost. For some variety, top with pureed fruit—avoid sugary (and non-nutritious) syrup."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="3. Eggs:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/egg"/>
+
+        <TextView
+                android:text= "Add a tablespoon of cottage cheese and scramble. For some variety, turn eggs into a lunch by mixing in mashed tofu or a softened vegetable."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Lunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="1.Grilled cheese: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/grilled"/>
+        <TextView
+                android:text="Use whole-wheat bread, shredded cheese (which melts easily), and a little butter. Cut the sandwich into bites before serving. For some variety, try using two cheeses, such as cheddar and mozzarella, or adding a thinly sliced avocado. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="2.Yogurt: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/yogourt"/>
+        <TextView
+                android:text="Stick to unsweetened yogurt—babies don't know any better. For flavor, add jarred or home-steamed fresh fruit. For some variety, try stirring in wheat germ and combining several fruits for new tastes. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="3. Sandwich: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/sandwich"/>
+        <TextView
+                android:text="Only use a small amount of peanut butter, because it's a choking hazard, and spread thinly. Use very soft bread and cut off the crusts. For some variety, try cooked egg yolks, avocado, hummus, and cream cheese as the ingredients. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="4. Soup:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/soup"/>
+        <TextView
+                android:text="Broil broth with soft veggies and noodles. Serve lukewarm—not hot—and only a little at a time. For some variety, add mashed beans, well-shredded meats, or shredded cheese. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="5. Macaroni and cheese: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="300dp" app:srcCompat="@drawable/mac"/>
+        <TextView
+                android:text="Try making it from scratch: toss soft, whole-wheat noodles cooked in broth with butter and shredded cheese. For some variety, stir in pureed green vegetables, such as peas, spinach, or broccoli, or mix with mashed beans or shredded meat."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+        <TextView
+                android:text="Your baby’s vocabulary is expanding quickly. You’ll probably hear a few words, like
+“Mama,” “Dada,” “no,” or “uh-oh” on a regular basis now. One-year-olds learn
+language by imitating their parents’ speech, so expect that your baby will turn into a
+little mimic, if she hasn’t done so already. At this point, mama really refers to mama,
+and dada really means dada."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Tips for Your Baby’s 12th Month:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text=" One-year-olds love to explore. Provide plenty of opportunities for safe
+exploration by filling cabinets with unbreakable Tupperware containers,
+wooden spoons, and whisks or by putting large, different textured items inside
+a box. Use a firm ‘no’ when something is off limits and redirect your baby's
+attention."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" If your child is a good climber, think about removing the bumpers from her crib
+and dropping the crib mattress now so that she doesn’t get a leg-up and fall
+over the top of the crib railing."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" At your one-year visit, check with your pediatrician to make sure your baby is
+up-to-date on all vaccinations."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
 
 
     </LinearLayout>

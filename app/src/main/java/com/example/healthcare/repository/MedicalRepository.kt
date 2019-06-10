@@ -5,12 +5,18 @@ import com.example.healthcare.data.Medical
 import com.example.healthcare.data.MedicalDao
 
 
-class MedicalRepository(private val medicalDao: MedicalDao) {
+class MedicalRepository(private val medicalDao: MedicalDao){
 
     fun allMedical(): LiveData<List<Medical>> = medicalDao.getAllMedicals()
 
     fun insertMedical(medical: Medical) {
         medicalDao.insertMedicals(medical)
+    }
+    fun deleteMedical(medical: Medical){
+        medicalDao.deleteMedicals(medical)
+    }
+    fun updateMedical(medical: Medical){
+        medicalDao.updateMedicals(medical)
     }
 }
 

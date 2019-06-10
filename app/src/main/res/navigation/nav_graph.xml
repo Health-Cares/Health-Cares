@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph" app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="com.example.healthcare.HomeFragment"
+              android:label="HomeFragment">
+        <action android:id="@+id/action_homeFragment_to_addFragment" app:destination="@id/addFragment"/>
+        <action android:id="@+id/action_homeFragment_to_childFragment" app:destination="@id/childFragment"/>
+        <action android:id="@+id/action_homeFragment_to_treatFragment" app:destination="@id/treatFragment"/>
+        <action android:id="@+id/action_homeFragment_to_newsFragment" app:destination="@id/newsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/addFragment" android:name="com.example.healthcare.AddFragment"
+              android:label="AddFragment"/>
+    <fragment android:id="@+id/childFragment" android:name="com.example.healthcare.ChildFragment"
+              android:label="ChildFragment">
+        <action android:id="@+id/action_childFragment_to_oneMonthFragment" app:destination="@id/oneMonthFragment"/>
+        <action android:id="@+id/action_childFragment_to_sixMonthFragment" app:destination="@id/sixMonthFragment"/>
+        <action android:id="@+id/action_childFragment_to_twelveMonthFragment"
+                app:destination="@id/twelveMonthFragment"/>
+        <action android:id="@+id/action_childFragment_to_aboveMonthFragment" app:destination="@id/aboveMonthFragment"/>
+    </fragment>
+    <fragment android:id="@+id/treatFragment" android:name="com.example.healthcare.TreatFragment"
+              android:label="TreatFragment">
+        <action android:id="@+id/action_treatFragment_to_toothacheFragment" app:destination="@id/toothacheFragment"/>
+        <action android:id="@+id/action_treatFragment_to_headacheFragment" app:destination="@id/headacheFragment"/>
+        <action android:id="@+id/action_treatFragment_to_heartFragment" app:destination="@id/heartFragment"/>
+        <action android:id="@+id/action_treatFragment_to_muscleFragment" app:destination="@id/muscleFragment"/>
+        <action android:id="@+id/action_treatFragment_to_commonFragment" app:destination="@id/commonFragment"/>
+        <action android:id="@+id/action_treatFragment_to_asthmaFragment" app:destination="@id/asthmaFragment"/>
+        <action android:id="@+id/action_treatFragment_to_asthmaFragment2" app:destination="@id/asthmaFragment2"/>
+    </fragment>
+    <fragment android:id="@+id/newsFragment" android:name="com.example.healthcare.NewsFragment"
+              android:label="NewsFragment"/>
+    <fragment android:id="@+id/oneMonthFragment" android:name="com.example.healthcare.OneMonthFragment"
+              android:label="OneMonthFragment"/>
+    <fragment android:id="@+id/sixMonthFragment" android:name="com.example.healthcare.SixMonthFragment"
+              android:label="SixMonthFragment"/>
+    <fragment android:id="@+id/twelveMonthFragment" android:name="com.example.healthcare.TwelveMonthFragment"
+              android:label="TwelveMonthFragment"/>
+    <fragment android:id="@+id/aboveMonthFragment" android:name="com.example.healthcare.AboveMonthFragment"
+              android:label="AboveMonthFragment"/>
+    <fragment android:id="@+id/toothacheFragment" android:name="com.example.healthcare.ToothacheFragment"
+              android:label="ToothacheFragment"/>
+    <fragment android:id="@+id/headacheFragment" android:name="com.example.healthcare.HeadacheFragment"
+              android:label="HeadacheFragment"/>
+    <fragment android:id="@+id/heartFragment" android:name="com.example.healthcare.HeartFragment"
+              android:label="HeartFragment"/>
+    <fragment android:id="@+id/muscleFragment" android:name="com.example.healthcare.MuscleFragment"
+              android:label="MuscleFragment"/>
+    <fragment android:id="@+id/commonFragment" android:name="com.example.healthcare.CommonFragment"
+              android:label="CommonFragment"/>
+    <fragment android:id="@+id/asthmaFragment" android:name="com.example.healthcare.AsthmaFragment"
+              android:label="AsthmaFragment"/>
+    <fragment android:id="@+id/asthmaFragment2" android:name="com.example.healthcare.AsthmaFragment"
+              android:label="AsthmaFragment"/>
+</navigation>

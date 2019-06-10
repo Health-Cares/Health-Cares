@@ -10,6 +10,269 @@
             android:orientation="vertical">
 
 
+        <TextView
+                android:text="one month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                android:id="@+id/textView7"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/onemo"/>
+        <TextView
+                android:text="How Does Baby Look?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/oneone"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Despite what movies might have you believe, newborns don't emerge from the womb picture-perfect — it often takes a few weeks or months for your baby to turn into the angelic-looking cherub you might have been expecting. From a flattened nose (you try squeezing through a birth canal and see if your nose comes out cute as a button!) to a cone-shaped head (especially prominent if you were pushing for a long time), your child is beautiful as she is, and your newborn baby's appearance will change quickly over the following weeks. You can ask your doctor about any features that might concern you."/>
+
+        <TextView
+                android:text="Newborn Senses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text="All of your baby’s senses are at work from the moment she’s born, including:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Vision. Her puffy eyes may match yours. But unlike yours, your brand new baby’s eyes are swollen from delivery, and perhaps the protective antibiotic eye ointment administered right after birth. Her vision is a little blurry — but she’s able to see your face and other close-up objects. Just be sure to hold them 8 to 12 inches in front of her, which is her range of vision. You may also notice that her eyes sometimes cross. That’s because the muscles that control eye movement aren’t yet fully developed and is nothing to worry about."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Hearing. While her hearing isn’t completely developed, your child is already familiar with your voice and other sounds that she heard often in the womb."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Taste. Her sense of taste is highly developed, and she can differentiate between sweet and bitter — with a preference towards the sweet stuff (breast milk and formula fit the bill perfectly)."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Smell. Soon after her arrival, she’ll recognize your scent."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Touch. This sense is the most developed at birth. Through touch, your baby learns the softness of your face, that nothing is more rewarding than"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="How Much Milk Baby Needs?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/milk"/>
+
+        <TextView
+                android:text="Babies eat a lot during those first few weeks at least eight to 12 times (or more) in a 24-hour period. Chalk it up to her tiny tummy size and the incredible growth, both physical and mental, that she’s undergoing these first weeks and months. Since your breasts and baby don’t come with a built-in meter, it can be difficult to gauge if and when your baby’s had enough to eat. But there are a few clues: If your baby seems
+                happy, her weight gain is appropriate for her age, and she’s making enough dirty diaper(eight to 12 on any given day), she’s probably getting enough."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Tracking Dirty Diapers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="391dp"
+                android:layout_height="182dp" app:srcCompat="@drawable/tracking"/>
+
+        <TextView
+                android:text="Speaking of dirty diapers, you can expect a whole lot from your newborn's bowel movements in the first few weeks. First poops are usually black and sticky — that’s the meconium that filled your baby’s intestines while in utero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="More Baby-Care Basics:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text=" Burping Baby, Diapering Your Newborn, Baby’s First Bath, Nail Trimming, Dressing Baby, Car Seat Safety."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="More Health 101s This Month:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+                android:text=" Umbilical cord healing: Whether your baby came into this world via a vaginal birth, C-section, or speedy side-of-the-road delivery, all newborns have one thing in common: a stumpy, shriveled umbilical cord where the belly button
+should be. The umbilical cord stump should fall off within the first few weeks of
+your little one’s life; until then, make sure to keep it clean and dry. Give your
+pediatrician a call if you notice foul-smelling discharge or the site still looks
+open and raw two weeks after the cord has fallen off."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Umbilical hernia: You might notice odd-looking bulges and bumps on your
+babe’s belly when she cries or moves in certain ways. What you’re likely seeing
+is an umbilical hernia — and don’t worry, it’s not dangerous. When your baby
+was receiving nutrients through her umbilical cord (back when she was still
+inside of you), a thick bundle of blood vessels entered her body through the
+middle of her abdomen — creating a small circular hole in her stomach
+muscles. Often, that gap remains for a short time after birth, causing the
+intestines to bulge out when your child strains. Small umbilical hernias usually
+resolve themselves within a few months, larger ones in a couple of years. In
+fact, most doctors won’t recommend surgery for a hernia until age 6 or 7 years
+old."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text=" Circumcision care: If you chose to get your baby boy circumcised, you might
+be wondering just what is normal when it comes to his penis. Like the healing
+umbilical cord, a newly circumcised penis should be kept clean and dry — that
+means no baths until your baby’s circumcised penis heals (it’ll take about seven
+to 10 days). Some oozing and even occasional bleeding around the surgical site
+is totally normal; in fact, it’s part of the body’s natural healing process."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

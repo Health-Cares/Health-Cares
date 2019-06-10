@@ -8,8 +8,207 @@
             android:layout_width="wrap_content"
             android:layout_height="500dp"
             android:orientation="vertical">
+        <TextView
+                android:text="HeadAche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                android:id="@+id/textView7"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/head1"/>
+        <TextView
+                android:text="Headache are one of the most common medical complaints; most people experience them at some point in their life. They can affect anyone regardless of age race and gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Causes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="A headache can occur in any part of the head, on both sides of the head or in just one location "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Home remedies for headaches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="1. Ginger, The All-Rounder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/ginger1"/>
+        <TextView
+                android:text="Touted as an elixir for headaches, ginger is a home remedy for instant relief. It helps reduce inflammation of the blood vessels in the head, hence easing the pain. And since it stimulates digestion, it also helps quell the nausea which occurs during migraines."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="Wondering how to use this miracle ingredient as a home remedy for headache? Steep ginger root for tea, or mix equal parts of ginger juice and lemon juice and drink up. You can consume this once or twice a day. You can also apply a paste of ginger powder and 2 tablespoons water on your forehead for a few minutes to provide quicker relief."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="2.Soothe with Scent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/peppermint"/>
 
-
+        <TextView
+                android:text="Peppermint Oil: With its refreshing scent, peppermint helps open up clogged blood vessels which cause headache. It contains menthol which helps regulate blood flow in the body. Quietly breathe in the aroma in a cool, dark room. You can also mix 3 drops of peppermint oil in one tablespoon of almond oil, or just add a little water and massage the temples or the back of your neck with it. Alternatively, can apply crushed peppermint leaves on your forehead. Make an herbal tea by adding 1 teaspoon of dried peppermint to a cup of boiling water. Cover and let it steep for 10 minutes. Strain and add some honey to sweeten it. Sip the tea slowly."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="3. Cinnamon Please!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/cinnamon"/>
+        <TextView
+                android:text="Cinnamon is a miracle spice that is known as one of the effective headache remedies. Wondering how to use it? Here's help: Grind some cinnamon sticks into a powder, and add some water to make a thick paste. Apply it on your forehead and temples and lie down for 30 minutes. Then wash it off with lukewarm water."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="4. Make Time for Thyme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+                android:text="To relieve headache pain, dab a drop or two of thyme or rosemary essential oil on each temple and on your forehead. Rub gently into the skin, then sit quietly for several minutes to let this home remedy work. Thank us, later!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:text="5. Basic Stretches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <ImageView
+                android:layout_width="401dp"
+                android:layout_height="250dp" app:srcCompat="@drawable/exercise"/>
+        <TextView
+                android:text="A few simple exercises to stretch your head and neck can help reduce the intensity of the headache. Move your chin upwards and downwards, left and right, and bend your neck sideways towards each shoulder. You can also try to slowly rotate the neck in clockwise and anticlockwise directions to help the shoulder and neck muscles relax. So when a headache looms, you know what to do."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toTopOf="parent"/>
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
