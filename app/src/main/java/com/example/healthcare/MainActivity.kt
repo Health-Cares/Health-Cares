@@ -4,6 +4,8 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
 import android.os.Bundle
 import com.google.android.material.navigation.NavigationView
 import androidx.core.view.GravityCompat
@@ -13,6 +15,8 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
+import androidx.core.text.HtmlCompat
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.healthcare.data.Medical
@@ -20,6 +24,7 @@ import com.example.healthcare.viewmodel.MedicalViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
+import kotlinx.android.synthetic.main.fragment_add.*
 import java.lang.System.exit
 import java.util.*
 
@@ -104,6 +109,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+        val medicalViewModel = ViewModelProviders.of(this).get(MedicalViewModel::class.java)
+
+
         val medicalListAdapter = MedicalListAdapter(this)
         recycler_view.adapter = medicalListAdapter
         recycler_view.layoutManager = LinearLayoutManager(this)
@@ -114,11 +122,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
 
 
-        medicalViewModel = ViewModelProviders.of(this).get(MedicalViewModel::class.java)
-
-        medicalViewModel.allMedical.observe(this, androidx.lifecycle.Observer { medicals ->
-            medicals?.let { medicalListAdapter.setMedicals(medicals) }
-        })
+//        medicalViewModel = ViewModelProviders.of(this).get(MedicalViewModel::class.java)
+//
+//        medicalViewModel.allMedical.observe(this, androidx.lifecycle.Observer { medicals ->
+//            medicals?.let { medicalListAdapter.setMedicals(medicals) }
+//        })
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -130,76 +138,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
 
 
-//        val actionBar = supportActionBar
-//        actionBar!!.title = resources.getString(R.string.app_name)
-//
-//
-//        mbtn = findViewById(R.id.mChangeLang)
-//
-//        mbtn.setOnClickListener {
-//
-//            showChangeLang()
-//        }
-
-
-
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
-
         nav_view.setNavigationItemSelectedListener(this)
 
         displayScreen(-1)
     }
-
-//    private fun showChangeLang() {
-//
-//        val listItems = arrayOf("English","عربى","አማርኛ")
-//
-//        val mBuilder = AlertDialog.Builder(this@MainActivity)
-//        mBuilder.setTitle("Choose Language")
-//        mBuilder.setSingleChoiceItems(listItems, -1) { dialog, which ->
-//            if (which == 0) {
-//                setLocate("ar")
-//                recreate()
-//            } else if (which == 1) {
-//                setLocate("am")
-//                recreate()
-//            }else if (which==2){
-//                setLocate("en")
-//                recreate()
-//            }
-//            dialog.dismiss()
-//
-//        }
-//        val mDialog = mBuilder.create()
-//        mDialog.show()
-//    }
-
-
-//    private fun setLocate(Lang:String){
-//
-//        val locale = Locale(Lang)
-//        Locale.setDefault(locale)
-//
-//        val config = Configuration()
-//
-//        config.locale = locale
-//        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
-//
-//        val editor = getSharedPreferences("Settings", Context.MODE_PRIVATE).edit()
-//        editor.putString("My_Lang", Lang)
-//        editor.apply()
-//
-//        }
-//
-//    private fun loadLocate(){
-//        val sharedPreferences = getSharedPreferences("Settings", Activity.MODE_PRIVATE)
-//        val language = sharedPreferences.getString("My_Lang","")
-//        setLocate(language)
-//    }
 
     override fun onBackPressed() {
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
@@ -208,6 +155,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }else{
             displayScreen(R.layout.fragment_home)
         }
+
 
     }
 
@@ -224,7 +172,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // as you specify a parent activity in AndroidManifest.xml.
         if(item.itemId == R.id.action_settings){
             val builder = AlertDialog.Builder(this@MainActivity)
-            builder.setMessage("Are you sure want to exit")
+            builder.setMessage("Are you sure want to exit??")
             builder.setCancelable(true)
             builder.setNegativeButton("No") { dialog, i -> dialog.cancel() }
 
@@ -307,5 +255,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
+    }
+
+
+
+    private fun connected():Boolean {
+        val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE)
+                as ConnectivityManager
+        val networkInfo: NetworkInfo? = connectivityManager.activeNetworkInfo
+
+        return networkInfo != null && networkInfo.isConnected
     }
 }

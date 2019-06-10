@@ -2,21 +2,29 @@ package com.example.healthcare.repository
 
 import androidx.lifecycle.LiveData
 import com.example.healthcare.data.Medical
+import com.example.healthcare.data.MedicalApiService
 import com.example.healthcare.data.MedicalDao
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import retrofit2.Response
 
 
-class MedicalRepository(private val medicalDao: MedicalDao){
+class MedicalRepository(private val medicalDao: MedicalDao, private val medicalApiService: MedicalApiService.Companion){
 
     fun allMedical(): LiveData<List<Medical>> = medicalDao.getAllMedicals()
 
-    fun insertMedical(medical: Medical) {
-        medicalDao.insertMedicals(medical)
+
+    suspend fun insertMedical(medical: Medical): Response<Medical> =
+        withContext(Dispatchers.IO){
+        medicalApiService.insertMedicals(medical).await()
     }
-    fun deleteMedical(medical: Medical){
-        medicalDao.deleteMedicals(medical)
+    suspend fun deleteMedical(medical: Medical): Response<Void> =
+        withContext(Dispatchers.IO){
+        medicalApiService.deleteMedicals(medical).await()
     }
-    fun updateMedical(medical: Medical){
-        medicalDao.updateMedicals(medical)
+    suspend fun updateMedical(medical: Medical):  Response<Medical> =
+        withContext(Dispatchers.IO){
+        medicalApiService.updateMedicals(medical).await()
     }
 }
 
